@@ -1,0 +1,4 @@
+sudo apt-get install libasound-dev
+sudo apt install build-essential
+./configure && make
+sudo make install
