@@ -2,3 +2,17 @@ sudo apt-get install libasound-dev
 sudo apt install build-essential
 ./configure && make
 sudo make install
+
+
+sudo apt-get install python3.10-dev
+pip install pyaudio
+
+sudo apt-get install libportaudio2 libasound2-dev
+pip install --no-binary :all: pyaudio
+
+sudo apt-get install python3-pip python3-dev portaudio19-dev
+pip install --upgrade pip
+pip install wheel
+pip install pyaudio
+
+sudo apt-get install python3-dev portaudio19-dev
